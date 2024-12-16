@@ -1,0 +1,16 @@
+.inputt {
+    border-bottom: 2px solid gray;
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .inputt {
+        width: 180px;
+    }
+}
+
+@media (max-width: 320px) {
+    .inputt {
+        width: 220px;
+    }
+}
